@@ -1,0 +1,24 @@
+<?php
+$name = $_GET["name"];
+$last_name = $_GET["last_name"];
+$n1 = $_GET["n1"];
+$n2 = $_GET["n2"];
+$op = $_GET["op"];
+
+$result = $n1 + $n2;
+?>
+<!doctype>
+<html>
+    <head>
+        <title>Resultado</title>
+        <meta charset="utf-8" />
+    </headad>
+    <body>
+        <h1><?php echo "$name $last_name"; ?></h1>
+        <p>O resultado é: 
+            <?php
+                echo $result;
+            ?>
+        </p>
+    </body>
+</html>

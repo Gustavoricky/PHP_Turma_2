@@ -1,0 +1,7 @@
+GET e POST: reduzindo o código; evitar repetição/duplicação de código
+
+echo reduzido;
+
+operação ternária;
+
+salvando os valores no formulário
